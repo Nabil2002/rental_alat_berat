@@ -1,0 +1,43 @@
+        body {
+            display: block;
+        }
+
+        label {
+            position: relative;
+            top: 100px;
+            left: 35%;
+            font-size: 20px;
+        }
+
+        .input-field {
+            width: 200px;
+            height: 50px;
+            position: relative;
+            top: 100px;
+            left: 35%;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(121, 118, 118, 0.514);
+            border: none;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background-color: #0099ff;
+            position: relative;
+            top: 148px;
+            left: 40%;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        p {
+            position: relative;
+            top: 150px;
+            left: 35.2%;
+            font-size: 20px;
+        }

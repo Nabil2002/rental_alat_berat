@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* Mengubah warna font */
+    color: black;
+    /* mengubah Type font dan warna latar */
+    font-family: Poppins-Regular;
+    background-color: whitesmoke;
+    width: 100%;
+    /* width: 1911px; */
+}
+
+.content {
+    position: relative;
+    /* Membuat lebar,Tinggi Kotak form dan warna kotak */
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    /* Membuat posisi kotak di tengah */
+    margin: 230px auto;
+    padding: 30px 20px;
+    /* Membuat lekukan Pada Ujung Kotak */
+    border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-family: Poppins-Bold;
+    padding-bottom: 50px;
+}
+
+/**Menyisipkan icon di form input dan memberi lebar pada form**/
+form,
+form .input-icon {
+    width: 100%;
+}
+
+form .input-icon {
+    position: relative;
+}
+
+.box_login {
+    box-sizing: border-box;
+    /* mengatur ukuran kotak ketik */
+    padding: 19px 50px;
+    /* mengatur lebar kotak ketik */
+    width: 100%;
+    /* mengatur jarak antar kolom */
+    margin-bottom: 20px;
+    /* menghilangkan bingkai/border di kotak  */
+    border: none;
+    /* mebuat lekukan di kotak */
+    border-radius: 24px;
+    /* mengubah warna latar */
+    background-color: whitesmoke;
+    /* menghilangkan garis luar */
+    outline: none;
+    /* mengatur ukuran font */
+    font-size: 15px;
+}
+
+.box_login::-webkit-input-placeholder
+
+/* support chrome */
+    {
+    font-size: 15px;
+    font-family: Poppins-Medium;
+}
+
+/**Mengatur posisi icon di dalam form**/
+form input+i {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    color: #777;
+}
+
+form input:focus {
+    border: 1px solid #0099ff;
+    color: #000
+}
+
+form input:focus+i {
+    color: #0099ff;
+}
+
+
+form>div:last-child {
+    display: inline-block;
+    width: 100%;
+}
+
+.tombol {
+    /* Mengubah Ukuran Tombol */
+    height: 50px;
+    width: 100%;
+    /* Menghilangkan Border */
+    border: none;
+    /* membuat radius Border */
+    border-radius: 24px;
+    /* Mengubah warna font dan warna latar */
+    background-color: rgb(6, 151, 247);
+    color: white;
+    margin: 30px 0px;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background-color: rgb(47, 0, 255);
+}
+
+.text1 {
+    margin: 10px 0px;
+}
+
+.text1 a {
+    /* membuat display menjadi  */
+    display: block;
+    /* Membuat Teks Link Jadi di tengah */
+    text-align: center;
+    /* menghilangkan garis bawah pada text */
+    text-decoration: none;
+    /* mengubah warna */
+    color: #777;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+}
+
+.text1 span a:hover {
+    color: rgb(47, 0, 255);
+}

@@ -1,0 +1,101 @@
+    body {
+        background-color: whitesmoke;
+    }
+
+    h2 {
+        position: relative;
+        left: 200px;
+    }
+
+    .wrapper-daftar {
+        position: relative;
+        width: 700px;
+        height: 800px;
+        /* height: 650px; */
+        background-color: white;
+        margin: 40px auto;
+        border-radius: 12px;
+    }
+
+    .wrapper-daftar .main-wrap {
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+
+    .daftar-column {
+        padding: 25px 0px;
+    }
+
+    .label-form {
+        position: relative;
+        top: 10px;
+    }
+
+    .column-form {
+        float: right;
+        position: relative;
+        right: 100px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: whitesmoke;
+        outline: none;
+        width: 300px;
+    }
+
+    .column-form:focus {
+        border: 1px solid #0099ff;
+    }
+
+    .column-form-rek {
+        float: right;
+        position: relative;
+        right: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: whitesmoke;
+        outline: none;
+        width: 200px;
+    }
+
+    .btn-generate {
+        width: 80px;
+        height: 30px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: #0099ff;
+        color: white;
+        cursor: pointer;
+        float: right;
+        margin-right: 100px;
+    }
+
+    .wrapper-button {
+        position: relative;
+        top: 50px;
+    }
+
+    .btn-daftar {
+        position: relative;
+        right: 100px;
+        width: 200px;
+        float: right;
+        padding: 15px 0px 15px 0px;
+        border: none;
+        outline: none;
+        border-radius: 12px;
+        background-color: #0099ff;
+        color: white;
+    }
+
+    .btn-daftar:focus {
+        border: 1px solid #0099ff;
+    }
+
+    .btn-daftar:hover {
+        background-color: silver;
+        cursor: pointer;
+    }

@@ -1,0 +1,23 @@
+.card {
+    margin: 12px 30px;
+    display: flex;
+}
+
+.text-info {
+    width: auto;
+    background-color: white;
+    top: 20px;
+    left: 30px;
+    position: relative;
+}
+
+.info {
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.thead {
+    float: left;
+    text-align: start;
+}

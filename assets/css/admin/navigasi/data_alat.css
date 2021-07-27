@@ -1,0 +1,167 @@
+.search-nav {
+    margin-top: 20px;
+    /* margin-left: 950px; */
+    float: right;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 15px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.wrapper-btn-print {
+    position: relative;
+    left: 170px;
+    bottom: 42px;
+}
+
+.btn-print {
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-print:hover {
+    background-color: silver;
+    color: black;
+}
+
+.kolom-search {
+    /* height: calc(1.4em + 0.75rem + 2px);*/
+    padding: 0.375rem 0.75rem;
+    height: 32px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: auto auto;
+    width: 100px;
+    transition: 2s ease all;
+}
+
+.kolom-search:focus {
+    width: 230px;
+}
+
+.button {
+    top: -0.1px;
+    height: 32px;
+    width: 40px;
+    left: -10px;
+    position: relative;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    margin: auto auto;
+    cursor: pointer;
+}
+
+.Wrapper-table {
+    overflow: none;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tr-header {
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+}
+
+th {
+    height: 50px;
+    margin-left: 12px;
+    text-align: center;
+    height: 50px;
+    margin-left: 12px;
+
+}
+
+td {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.button-options {
+    border: none;
+    width: 70px;
+    height: 30px;
+    background-color: #0099ff;
+    margin-top: 12px;
+    position: relative;
+    bottom: 12px;
+
+}
+
+.button-options a {
+    text-decoration: none;
+    color: white;
+}
+
+@media print {
+    .search-nav {
+        display: none;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    a {
+        display: none;
+    }
+
+    .wrapper-btn-print {
+        display: none;
+    }
+
+    .table {
+        border: 1px solid black;
+    }
+
+    .tr-header {
+        background-color: transparent;
+        color: black;
+        text-align: center;
+    }
+
+    th {
+        border: 1px solid black;
+    }
+
+    th:last-child {
+        display: none;
+    }
+
+    td {
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    td:last-child {
+        display: none;
+    }
+}
